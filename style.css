@@ -1,3 +1,55 @@
 a {
     text-decoration: none;
 }
+/*Fondo del inicio*/
+.bgimg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("/assets/palmeras.jpeg");
+    min-height: 90%;
+}
+/*Letras del titulo del proyecto*/
+#proyecto {
+    color: white;
+}
+
+#sobre-mi {
+    color:white;
+} 
+/*
+#nombre #carrera {
+    margin: 0;
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+
+.gradient-text {
+    background-image: linear-gradient(45deg, var(--violet), var(--turquoise));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+*/
+/*Fondo de la sección proyectos*/
+#proyectos {
+background-color: #8093f1;
+}
+
+/*Fondo de la sección Sobre mi*/
+#sobre-mi {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg, #a53860,#8093f1 );
+    background-size: 200% 200%;
+    position: relative;
+    animation: cambiar 10s ease infinite;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    0%{background-position: 100 50%;}
+    0%{background-position: 0 50%;}
+}
