@@ -53,3 +53,37 @@ background-color: #8093f1;
     0%{background-position: 100 50%;}
     0%{background-position: 0 50%;}
 }
+
+
+/*Fondo de la sección habilidades*/
+#habilidades {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg, #b93ad3,#eb33a4 );
+    background-size: 200% 200%;
+    position: relative;
+    animation: cambiarH 10s ease infinite;
+}
+@keyframes cambiarH{
+    0%{background-position: 0 50%;}
+    0%{background-position: 100 50%;}
+    0%{background-position: 0 50%;}
+}
+
+/*Fondo de la sección contacto*/
+#contacto {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg, #05eee2,#0329e7 );
+    background-size: 200% 200%;
+    position: relative;
+    animation: cambiarC 10s ease infinite;
+}
+@keyframes cambiarC {
+    0%{background-position: 0 50%;}
+    0%{background-position: 100 50%;}
+    0%{background-position: 0 50%;}
+}
+
