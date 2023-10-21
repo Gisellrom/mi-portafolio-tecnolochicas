@@ -60,7 +60,7 @@ background-color: #8093f1;
     width: 100vw;
     height: 100vh;
     color: #fff;
-    background: linear-gradient(45deg, #b93ad3,#eb33a4 );
+    background: linear-gradient(45deg, #b93ad3,#5f5c5e );
     background-size: 200% 200%;
     position: relative;
     animation: cambiarH 10s ease infinite;
@@ -87,3 +87,18 @@ background-color: #8093f1;
     0%{background-position: 0 50%;}
 }
 
+/*Fondo de la sección contacto*/
+#estudios {
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(45deg, #45b5f7,#036e0c );
+    background-size: 200% 200%;
+    position: relative;
+    animation: cambiarE 10s ease infinite;
+}
+@keyframes cambiarE {
+    0%{background-position: 0 50%;}
+    0%{background-position: 100 50%;}
+    0%{background-position: 0 50%;}
+}
